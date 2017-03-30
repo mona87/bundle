@@ -1,0 +1,16 @@
+
+
+#sec2{
+	position: relative;
+	background-color: $white;
+	padding-top: vw(px,180);
+
+	.sec2-img{
+		background-image: url('../images/sec2-img.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: vw(px,615);
+		height: vw(px,500);
+		float: left;
+	}
+}

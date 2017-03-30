@@ -1,0 +1,27 @@
+#sec4{
+	position: relative;
+	padding-top: vw(px,127);
+
+	.sec4-img{
+		background-image: url('../images/sec4-img.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: vw(px,750);
+		height: vw(px,560);
+		float: right;
+		margin-right: vw(px,60)
+	}
+	.copy{
+		float: left;
+		margin-left: vw(px,50);
+		margin-right: vw(px,57);
+		margin-top: vw(px,63);
+		width: vw(px,361);
+
+		ul:nth-of-type(1){
+			margin-right: vw(px,49);
+		}
+	}
+
+
+}

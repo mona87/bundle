@@ -1,0 +1,106 @@
+//divider variable
+$XLdivider: 12.8;
+$Ldivider: 7.68;
+//$Mdivider: 14.8;
+$Sdivider: 3.6;
+$vw: vw;
+//sizing variables
+
+/* colors */
+$blue: #4780FF;
+$yellow: #FEB64E;
+$pink: #FC6380;
+$lightGreen: #95DED5;
+$seaGreen: #57BFB4;
+$jungleGreen: #279D8E;
+$darkGreen: #1E3238;
+$white: #ffffff;
+$snowWhite: #009688;
+$lightGray: #F5F5F5;
+$gray: #CCCCCC;
+$darkGray: #333333;
+
+/* fonts */
+$GP-L: 'GalaxiePolarisLight';
+$GP-B: 'GalaxiePolarisBook';
+$SF-L: 'SFUITextLight';
+$SF-R: 'SFUITextRegular';
+$SF-SB: 'SFUITextSemibold';
+
+/* mixins */
+
+//$type can be px, bp1, or bp2
+@function vw($type, $px...) {
+  //check if null
+  @if not $px or not $type {
+    @warn 'type or number is null';
+    @return(null);
+  }
+
+  //default value
+  $value: null;
+
+  //loop through px arguments and convert each value to vw
+  @each $val in $px {
+    @if $type == 'bp1' {
+      $value:  #{$value} $val / $Ldivider + $vw;
+    }
+    @else if  $type == 'bp2' {
+      $value:  #{$value} $val / $Sdivider + $vw;
+    }
+    @else if $type == 'px' {
+      $value:  #{$value} $val / $XLdivider + $vw;
+    }
+    @else {
+      @warn 'not a valid type or number';
+    } 
+  }
+  
+  // @debug 'px: #{$px...}  val: #{$value}' ;
+  @return($value)
+}
+
+@mixin fontFace($family,$src,$style: normal,$weight: normal, $alternativeFont:'') {
+  @font-face {
+    font-family: $family;
+    src: url('#{$src}.eot'); // IE9 compatible
+    src:
+      url('#{$src}.eot?#iefix') format('embedded-opentype'),
+      url('#{$src}.woff') format('woff'),
+      url('#{$src}.ttf') format('truetype'),
+      url('#{$src}.svg##{$family}') format('svg');
+    font-style: $style;
+    font-weight: $weight;
+  }
+}
+
+@mixin alpha ($color, $alpha) {
+  color: rgba($color, $alpha);
+}
+
+@mixin x-user-select ($value: none) {
+	-webkit-user-select: $value;
+	   -moz-user-select: $value;
+	    -ms-user-select: $value;
+	        user-select: $value;
+}
+
+// @mixin img-wrapper ($width, $height) {
+//   width: $width;
+//   height: $height;
+// }
+
+
+$bp1-width: 1024px;
+@mixin bp1 {
+  @media (max-width: #{$bp1-width}) {
+    @content;
+  }
+}
+
+$bp2-width: 768px;
+@mixin bp2 {
+  @media (max-width: #{$bp2-width}) {
+    @content;
+  }
+}

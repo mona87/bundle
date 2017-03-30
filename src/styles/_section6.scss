@@ -1,0 +1,54 @@
+#sec6{
+  position: relative;
+  padding-top: vw(px,198);
+
+  .sec6-img1{
+    background-image: url('../images/sec6-img1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:vw(px,576);
+    height:vw(px,406);
+    float: left;
+    margin-left: vw(px,24);
+    margin-right: vw(px,24);
+  }
+  .sec6-img2{
+    background-image: url('../images/sec6-img2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:vw(px,632);
+    height:vw(px,406);
+    float: left;
+    margin-right: vw(px,24);
+  }
+  .sec6-img3{
+    background-image: url('../images/sec6-img3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:vw(px,432);
+    height:vw(px,302);
+    float: left;
+    margin-top: vw(px,24);
+    margin-right: vw(px,24);
+  }
+  .copy-bg{
+    background-color: $lightGray;
+    width: vw(px,776);
+    height: vw(px,302);
+    margin-top: vw(px,24);
+    float: left;
+    margin-left: vw(px,24);
+    margin-right: vw(px,24);
+      .copy{
+        margin-top: vw(px,56);
+        width: vw(px,536);
+        .highlight{
+          background-color: $pink;
+          max-width: vw(px,128);
+        }
+      }
+
+  }
+
+
+}

@@ -1,0 +1,28 @@
+#sec8{
+  position: relative;
+  padding-top: vw(px,247);
+
+  .copy{
+    width: vw(px,363);
+    margin-left: vw(px,146);
+    margin-right: vw(px,53);
+    margin-top: vw(px,52);
+
+    .highlight{
+      background-color: $pink;
+      max-width: vw(px,128);
+    }
+  }
+
+  .sec8-img{
+    background-image: url('../images/sec8-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px,706);
+    height: vw(px,525);
+    float: left;
+
+
+  }
+
+}

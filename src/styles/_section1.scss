@@ -1,0 +1,125 @@
+#sec1{
+  position: relative;
+  background-color: $lightGray;
+  padding-bottom: vw(px,100);
+
+  .header{
+    width: vw(px, 769);
+    float: left;
+  }
+  h1{
+    font-family: $GP-L;
+    font-size: vw(px,42);
+    text-align: center;
+
+  }
+  h3{
+    font-family: $SF-L;
+    font-size: vw(px,18);
+    text-align: center;
+  }
+  .sec1-img1{
+    
+    background-image: url('../images/sec1-img1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: vw(px, 456);
+    width: vw(px, 839);
+    margin-left: vw(px,268);
+
+  }
+  .sec1-img2{
+    background-image: url('../images/sec1-img2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: vw(px,209);
+    width: vw(px,175);
+    margin-left: vw(px, 108);
+    float: left;
+  }
+  .sec1-img3{
+    background-image: url('../images/sec1-img3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px,136);
+    height: vw(px,136);
+    float: left;
+    margin-top: vw(px,114);
+  }
+
+  .underline {
+    opacity: 1;
+    border-bottom: vw(px, 2) solid $blue;
+    margin-top: vw(px, 5);
+  }
+
+  .blue{
+    color: $blue;
+    position: relative;
+    &:hover {
+        &:before{
+        opacity: 1;
+        -webkit-transition: 1s;
+        transition: 1s;
+      }
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: vw(px, 47);
+        left: 0;
+        height: vw(px,2);
+        width: vw(px, 174);
+        background-color: $blue;
+        opacity: 0;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+  }
+  .pink{
+    color: $pink;
+        position: relative;
+    &:hover {
+        &:before{
+        opacity: 1;
+        -webkit-transition: 1s;
+        transition: 1s;
+      }
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: vw(px, 47);
+        left:  vw(px, 10);
+        height: vw(px,2);
+        width: vw(px, 234);
+        background-color: $pink;
+        opacity: 0;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+  }
+  .yellow{
+    color: $yellow;
+    position: relative;
+    &:hover {
+        &:before{
+        opacity: 1;
+        -webkit-transition: 1s;
+        transition: 1s;
+      }
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: vw(px, 47);
+        left: 0;
+        height: vw(px,2);
+        width: vw(px, 180);
+        background-color: $yellow;
+        opacity: 0;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+  }
+}

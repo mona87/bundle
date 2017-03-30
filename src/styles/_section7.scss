@@ -1,0 +1,25 @@
+#sec7{
+  position: relative;
+  padding-top: vw(px,190);
+
+  .sec7-img{
+    background-image: url('../images/sec7-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: vw(px,672);
+    height: vw(px,367);
+    float: left;
+    margin-left: vw(px,44);
+  }
+
+  .copy{
+    width: vw(px,384);
+    margin-top: 0;
+    margin-left: vw(px,85);
+
+    .highlight{
+      background-color: $pink;
+      max-width: vw(px,128);
+    }
+  }
+}               

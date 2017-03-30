@@ -1,0 +1,123 @@
+  /*icons*/
+  .icons{
+    clear:both;
+    position: absolute;
+    left: vw(px, 813);
+    top: vw(px, 523);
+  }
+
+  .trello-icon {
+    background-image: url('../images/trello-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+
+    &:hover {
+      background-image: url('../images/trello-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+
+  }
+  .hipchat-icon {
+    background-image: url('../images/hipchat-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+
+    &:hover {
+      background-image: url('../images/hipchat-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+  }
+
+  .bitbucket-icon {
+    background-image: url('../images/bitbucket-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+    &:hover {
+      background-image: url('../images/bitbucket-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+  }
+
+  .jira-core-icon {
+    background-image: url('../images/jira-core-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+    &:hover {
+      background-image: url('../images/jira-core-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+  }
+
+  .confluence-icon {
+    background-image: url('../images/confluence-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+    &:hover {
+      background-image: url('../images/confluence-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+  }
+
+  .jira-service-icon {
+    background-image: url('../images/jira-service-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 56);
+    height: vw(px, 56);
+    float: left;
+    cursor: pointer;
+    &:hover {
+      background-image: url('../images/jira-service-icon-hover.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: vw(px, 56);
+      height: vw(px, 56);
+      float: left;
+      transition: .5s;
+    }
+  }

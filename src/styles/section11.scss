@@ -1,0 +1,37 @@
+#sec11{
+  position: relative;
+  padding-top: vw(px, 197);
+  .copy{
+    position: relative;
+    bottom: vw(px,48);
+    margin: auto;
+    float: none;
+    text-align: center;
+    width: vw(px,566);
+    ul{
+      text-align: left;
+      float: left;
+
+    }
+    ul:nth-of-type(1){
+      margin-right: vw(px,155);
+      width: vw(px,155);
+    }
+    ul:nth-of-type(2){
+      width: vw(px,202);
+    }
+    .highlight{
+      background-color: $yellow;
+      width: vw(px,95);
+      margin: auto;
+    }
+  }
+
+  .sec11-img{
+    background-image: url('../images/sec11-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 1280);
+    height: vw(px, 613);
+  }
+}

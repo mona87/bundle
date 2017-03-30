@@ -1,0 +1,26 @@
+#sec3{
+  position: relative;
+  padding-top: vw(px,242);
+
+  .sec3-img{
+    background-image: url('../images/sec3-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: vw(px,1065);
+    height: vw(px,540);
+    margin: auto;
+  }
+  .copy{
+      margin: auto;
+      width: vw(px,566);
+      float: none;
+      text-align: center;
+      position: relative;
+      bottom: vw(px,92);
+      .highlight{
+        margin: auto;
+      }
+  }
+
+
+}

@@ -1,0 +1,97 @@
+#sec12{
+  position: relative;
+  background-color: $lightGray;
+  margin-top: vw(px, 150);
+
+  h1{
+    font-family: $GP-L;
+    text-align: center;
+    color: $blue;
+    margin-top: vw(px,61);
+    font-size: vw(px, 42);
+  }
+
+  /*slides*/
+  .slide{
+    position: relative;
+    margin-top: vw(px,67); 
+    overflow: hidden;
+    padding-left: vw(px, 63);
+    padding-right: vw(px, 90);
+    transition: 0;
+
+  }
+
+
+  .two,.three, .four, .five, .six{
+    opacity: 0;
+    position: absolute;
+    top: vw(px,120);
+    width: 100%;
+  }
+
+  .copy {
+    width: vw(px,378);
+    margin-left: vw(px,30);
+    margin-top: vw(px,33);
+    float: right;
+    margin-right: 0;
+  }
+  .trello-slide{
+    background-image: url('../images/trello-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 667);
+    height: vw(px, 550); 
+    float: left;  
+  }
+
+  .hipchat-slide{
+    background-image: url('../images/hipchat-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 700);
+    height: vw(px, 468);  
+    float: left;  
+  }
+
+  .bitbucket-slide{
+    background-image: url('../images/bitbucket-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 700);
+    height: vw(px, 463);  
+    float: left;  
+  }
+
+  .jira-core-slide{
+    background-image: url('../images/jira-core-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 656);
+    height: vw(px, 441);  
+    float: left;  
+  }
+
+  .jira-service-slide{
+    background-image: url('../images/jira-service-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px, 711);
+    height: vw(px, 463); 
+    float: left;  
+  }
+
+  .confluence-slide{
+    background-image: url('../images/confluence-slide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: vw(px,699);
+    height: vw(px,485);
+    float: left;  
+  }
+
+
+
+
+}

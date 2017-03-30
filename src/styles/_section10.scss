@@ -1,0 +1,31 @@
+#sec10{
+
+  .copy{
+    width: vw(px,361);
+    margin-left: vw(px, 150);
+    margin-top: vw(px, 245);
+    .highlight{
+      background-color: $yellow;
+      width: vw(px,95);
+    }
+
+    ul:nth-of-type(1){
+      margin-right: vw(px,50);
+    }
+
+    p:nth-of-type(2){
+      display: inline-block;
+    }
+  }
+
+  .sec10-img{
+    margin-top: vw(px,175);
+    background-image: url('../images/sec10-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: vw(px,525);
+    height: vw(px,557);
+    float: right;
+    margin-right: vw(px,57);
+  }
+}

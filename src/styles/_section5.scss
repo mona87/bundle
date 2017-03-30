@@ -1,0 +1,19 @@
+#sec5{
+	position: relative;
+	padding-top: vw(px,251);
+
+	.sec5-img{
+		background-image: url(../images/sec5-img.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: vw(px,698);
+		height: vw(px,417);
+		float: left;
+	}
+
+	.copy{
+		float: left;
+		width: vw(px,351);
+		margin-top: vw(px,49);
+	}
+}

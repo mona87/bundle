@@ -1,0 +1,35 @@
+
+.anchors{
+	position: absolute;
+	top: vw(px, 364);
+	left: vw(px, 1218);
+
+}
+.boxes{
+	width: vw(px,12);
+	height: vw(px,12);
+	background-color: $gray;
+	margin-bottom: vw(px,8);
+	border-radius: vw(px, 3);
+	cursor: pointer;
+}
+
+.box1{
+	background-color: $darkGray;
+	box-shadow: vw(px, 2) vw(px, 2) vw(px, 2) $gray;
+}
+
+.box2{
+	background-color: $blue;
+	box-shadow: vw(px, 2) vw(px, 2) vw(px, 2) $gray;
+}
+
+.box3{
+	background-color: $pink;
+	box-shadow: vw(px, 2) vw(px, 2) vw(px, 2) $gray;
+}
+
+.box4{
+	background-color: $yellow;
+	box-shadow: vw(px, 2) vw(px, 2) vw(px, 2) $gray;
+}

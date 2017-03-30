@@ -1,0 +1,25 @@
+#sec9{
+  position: relative;
+  background-color: $lightGray;
+  padding-bottom: vw(px,175);
+
+  .copy{
+    width: vw(px,360);
+    margin-top: vw(px,257);
+    .highlight{
+      background-color: $yellow;
+      width: vw(px,95);
+    }
+  }
+
+  .sec9-img{
+    margin-top: vw(px,182);
+    background-image: url('../images/sec9-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: vw(px,568);
+    height: vw(px,361);
+    float: left;
+    margin-left: vw(px,125);
+  }
+}
